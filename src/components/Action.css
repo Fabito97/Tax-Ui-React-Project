@@ -1,0 +1,28 @@
+.action {
+  background: url('../src/assets/background-call-to-action.jpg') no-repeat center center/cover;
+  display: grid;
+  place-items: center;  
+  padding: 3rem;
+  color: #fff;
+  height: 400px;
+}
+
+.action-wrap {
+  width: 350px;
+}
+
+.action p,
+.action h2 {
+  margin-bottom: 1rem;
+}
+
+.action p {
+  font-size: 0.7rem;
+}
+
+
+@media screen and (max-width:500px) {
+  .action-wrap {
+    width: 100%;
+  }  
+}

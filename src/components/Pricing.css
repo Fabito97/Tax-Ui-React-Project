@@ -1,0 +1,103 @@
+.pricing {
+  background-color: #0a1429;
+  color: #fff;
+  padding: 5rem 3rem;
+}
+
+.pricing li,
+.pricing p {
+  color: #ddd;
+}
+
+.pricing-charts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem;
+}
+
+.pricing-chart {
+  width: 300px;
+  text-align: left;
+  padding: 1.5rem;
+
+}
+
+.pricing-chart:nth-child(even) {
+  background-color: #2563eb;
+  border-radius: 20px;
+}
+
+.pricing-chart button {
+  display: inline-block;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #fff;
+  border-color: #444;
+}
+
+.pricing-chart:nth-child(even) button {
+  background-color: #fff;
+  color: #111;
+
+}
+
+.pricing-charts p {
+  font-size: 0.8rem;
+}
+.pricing-charts li {
+  font-size: 0.7rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width:1024px) {
+  .pricing-charts {
+    margin: 2rem 0 ;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width:868px) {
+  .pricing {
+    padding: 3rem;
+  }
+
+  .pricing p {
+    font-size: 0.9rem;
+  }
+  
+  .pricing-charts {
+    flex-direction: column;
+    gap: 3rem;
+    margin: 2rem;
+    line-height: 2;
+  }
+
+  .pricing-chart {
+    width: 80%;
+    font-size: medium;   
+  }
+}
+
+.pricing-chart:nth-child(odd) {
+  border: 1px solid #444;
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width:600px) {
+  .pricing {
+    padding: 3rem;
+  }
+
+  .pricing-chart {
+    width: 100%;
+    font-size: medium;    
+  }
+
+  .pricing-charts {
+    margin: 0;
+  }
+}

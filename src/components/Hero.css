@@ -1,0 +1,51 @@
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.hero h1 {
+  font-size: 3rem;
+  line-height: 1.3;
+  margin: 2rem;
+}
+
+.hero h1 span{
+  color: #2563eb;
+}
+
+.hero p {
+  width: 70%;
+  font-size: 0.9rem;
+  margin: auto;
+  text-align: center;
+}
+
+.hero-wrapper {
+  width: 700px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem
+}
+
+@media screen and (max-width: 868px) {
+  .hero-wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+}
